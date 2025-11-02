@@ -1,32 +1,106 @@
-# Dr-grow
+# 🌱 Dr-Grow
 
-This project was the hard work of my friends Akshay, Winnie & Vishnu 
+**Dr-Grow** is an AI-powered plant identification web app built by **Akshay, Winnie, and Vishnu**.
+It helps users identify different plant species using an image of a plant’s leaf and also includes an **offline AI chatbot** for interactive guidance.
 
-hope you find our hard work useful.
+> 💡 *We hope our hard work proves useful to you!*
+
+---
+
+## 🧠 Project Overview
+
+The development process was divided into two major stages:
+
+1. **Model Development** – Creating an image recognition model in Python using TensorFlow and Scikit-learn.
+2. **Frontend Development** – Building a user-friendly interface with Streamlit for smooth interaction.
+
+Currently, the model supports **7 plant classes**, due to limited high-quality dataset availability.
+The app also features an **offline chatbot**, powered by **Ollama**, supporting models like `llama3.2:1b` and Microsoft’s `phi`.
+
+---
+
+## ⚙️ Tech Stack & Libraries
+
+The project uses the following key Python libraries:
+
+* **Streamlit** – for building the web app interface
+* **TensorFlow** – for deep learning model training and prediction
+* **Scikit-learn** – for model evaluation and preprocessing
+* **Ngrok** – for secure tunneling and public access
+* **Ollama** – for offline AI chatbot support
+
+  * *Models used:* `llama3.2:1b` and `phi`
+  * [🧩 Setup Tutorial (YouTube)](https://youtu.be/xZL-WQLodDE)
+* **QRCode** – for generating QR codes
+* **OpenCV** – for image processing
+* **Matplotlib** – for data visualization
+* **NumPy** – for numerical computation
+* **Pandas** – for data handling
+* **PIL (Pillow)** – for image manipulation
+* **Datetime** – for date/time utilities
+
+---
+
+## 🧩 System Requirements
+
+* **Python version:** 3.12.9
+
+  > ⚠️ Note: TensorFlow may have compatibility issues with newer Python versions. If you face errors, try running the project on **Python 3.12.9**.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/yourusername/Dr-Grow.git
+   cd Dr-Grow
+   ```
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Streamlit app
+
+   ```bash
+   streamlit run app.py
+   ```
+4. (Optional) Start the Ollama chatbot server
+
+   ```bash
+   ollama run llama3.2:1b
+   ```
+
+---
+
+## 🌿 Features
+
+* Leaf-based plant identification using a deep learning model
+* Interactive, user-friendly web interface
+* Offline chatbot integration
+* QR code support for easy sharing
+* Local and online access via Ngrok
+
+---
+
+## 👥 Contributors
+
+| Name       | Role                             |
+| ---------- | -------------------------------- |
+| **Akshay** | Model Development & Integration  |
+| **Winnie** | Frontend Design (Streamlit)      |
+| **Vishnu** | Chatbot Integration & Deployment |
+
+---
+
+## 🧾 License
+
+This project is open source and available under the **MIT License**.
+
+---
 
 
-## The project was developed in two stages:
-1. Developing an image recogintion model using Python
-2. Developing a frontend for user interaction using streamlit
-
-The project features a Web app which helps users to identify various plants using an image of the plant's leaf.
-currently due to lack of quality data we have limited the no. of classes to 7.
-It also includes a chatbot powered using Ollama, which works offline. the supported models are llama3.2:1b and phi by microsoft
-
-## For users who would like to use and develop my project:
-the project uses the following libraries:
-1. Streamlit
-2. Tensorflow
-3. Scikit-learn
-4. Ngrok
-5. ollama (models: Llama3.2:1b & phi) [Reference Link for Setting up](https://youtu.be/xZL-WQLodDE)
-6. qrcode
-7. Open-CV
-8. matplotlib
-9. Numpy
-10. datetime
-11. PIL
-12. pandas
-
-    #### PS: the project was developed on python 12.9 if u are having issues while running please try using the same version as Newer versions seemed to have issues with Tensorflow
-
+* ✅ make a `README.md` file version of this (formatted with markdown emojis and code blocks ready to upload), or
+* 🪶 make a **short portfolio version** (for resume/project showca
