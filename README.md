@@ -90,7 +90,3 @@ The project uses the following key Python libraries:
 This project is open source and available under the **MIT License**.
 
 ---
-
-
-* ✅ make a `README.md` file version of this (formatted with markdown emojis and code blocks ready to upload), or
-* 🪶 make a **short portfolio version** (for resume/project showca
