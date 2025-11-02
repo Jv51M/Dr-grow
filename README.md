@@ -1,6 +1,6 @@
 # 🌱 Dr-Grow
 
-**Dr-Grow** is an AI-powered plant identification web app built by **Akshay, Winnie, and Vishnu**.
+**Dr-Grow** is an AI-powered plant identification web app built by **Akshay, Winnie, Vishnu and Me**.
 It helps users identify different plant species using an image of a plant’s leaf and also includes an **offline AI chatbot** for interactive guidance.
 
 > 💡 *We hope our hard work proves useful to you!*
