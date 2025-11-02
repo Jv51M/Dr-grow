@@ -1,0 +1,23 @@
+# Core Web Framework
+streamlit==1.38.0
+
+# Machine Learning and Deep Learning
+tensorflow==2.17.0
+scikit-learn==1.5.2
+
+# Data Handling and Visualization
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.2
+
+# Image Processing
+opencv-python==4.10.0.84
+Pillow==10.4.0
+
+# Utilities
+qrcode==7.4.2
+datetime  # built-in, no need to install but kept for clarity
+pyngrok==7.2.1
+
+# Chatbot Integration
+ollama==0.1.3  # if using the Ollama Python interface (optional)
