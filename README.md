@@ -85,16 +85,6 @@ The project uses the following key Python libraries:
 
 ---
 
-## 👥 Contributors
-
-| Name       | Role                             |
-| ---------- | -------------------------------- |
-| **Akshay** | Model Development & Integration  |
-| **Winnie** | Frontend Design (Streamlit)      |
-| **Vishnu** | Chatbot Integration & Deployment |
-
----
-
 ## 🧾 License
 
 This project is open source and available under the **MIT License**.
